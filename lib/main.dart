@@ -8,7 +8,7 @@ Future<dynamic> main(final context) async {
 // Why not try the Appwrite SDK?
   //
   final client = Client()
-      .setEndpoint('https://cloud.appwrite.io/v1')
+      .setEndpoint('https://cloud.ezhardigital.com/v1')
       .setProject(Platform.environment['APPWRITE_FUNCTION_PROJECT_ID'])
       .setKey(Platform.environment['APPWRITE_API_KEY']);
 
